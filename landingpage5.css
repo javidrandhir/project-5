@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    background-color: dodgerblue;
+    height: 100vh;
+    width: 100%;
+}
+
+.container .main {
+    /* margin-top: 10px; */
+    padding-top: 10px;
+    /* left: 20%; */
+    padding-left: 125px;
+    padding-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main img {
+    width: 85px;
+    height: 85px;
+}
+
+.main .nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.main .nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.content .mat {
+    width: 40%;
+    margin-left: 70px;
+    margin-right: 200px;
+}
+
+.mat h2 {
+    font: 75px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.mat h1 {
+    color: #fff;
+    font-size: 85px;
+    font-weight: 900;
+    /* line-height: -10%; */
+    text-transform: uppercase;
+}
+
+.mat p {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.mat .btn {
+    padding: 6px 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 25px;
+    letter-spacing: 1px;
+}
+
+.pep1 {
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    transform: translateY(-30%);
+    height: 500px;
+}
+
+.icons {
+    position: absolute;
+    top: 84%;
+    left: 42%;
+}
+
+.icons .icon {
+    width: 50px;
+    margin: 0 10px;
+    height: 90px;
+}
+
+.icons .icon:hover {
+    transform: translateY(-18px);
+}
+
+.title {
+    position: absolute;
+    top: 90%;
+    left: 19%;
+    transform: translate(-80%, -15%);
+    color: #000;
+}
+
+.title h1 {
+    font-variant: small-caps;
+}
